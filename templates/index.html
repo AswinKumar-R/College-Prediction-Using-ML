@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Prediction using SAT Score</title>
+    <link rel="stylesheet" href="static/index.css">
+</head>
+<body>
+    <h1>GPA Prediction using SAT Score</h1>
+    <form action="/handel_data" method="POST">
+        <!-- Student Name Input -->
+        <label for="student_name">Name:</label><br>
+        <input type="text" id="student_name" name="student_name" required><br><br>
+
+        <!-- SAT Score Input -->
+        <label for="sat_score">SAT Score:</label><br>
+        <input type="number" id="sat_score" name="sat_score" required><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Predict GPA">
+    </form>
+</body>
+</html>
